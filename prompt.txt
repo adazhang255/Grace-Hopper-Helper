@@ -1,0 +1,11 @@
+Prompt: 
+You are the CFO of anitab.org that is the nonprofit that hosts Grace Hopper Celebration. Build an app in react/node.js for GHC to use converted money into revenue-producing work through a smaller virtual hiring event, that will include a shark tank event and hackathon sponsored by a partner company such as YC. These are the ways to turn that money into more of it. Use the sponsorship and registration credits as a selling point. A sponsor who has already rolled over $100K is a natural lead for a multi-year partnership. Include a timeline of what ghc will commit to do on a monthly basis. Grace Hopper needs to make $16 million this year. There should be a status bar that shows how close AnitaB is to completing this goal.
+
+Here’s is the list of included components:
+ - a Chatbot with Gemini API (I can plug in API key later) that can serve as a financial and legal advisor to AnitaB, based on the data stored in the app (monetary, timeline, events)
+ - a Timeline that has the option to be tweaked by the user (adding/deleting tasks or events)
+ - a timeline/progress bar
+
+Here is an example timeline attached below, however the app timeline should be vertically oriented instead of horizontally.
+For the timeline, each event/task on the timeline should contain a checklist of the necessary action items needed to complete the task. This checklist should be able to be checked off by the user, which will update the status bar. Each milestone in each month should be navigable and functional where you are able to click on it and it would show tips or a draft plan of how to complete the task/milestone.
+
